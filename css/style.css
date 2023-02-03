@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Carerra Jones';
+    src: url(../fontes/Carerra-Jones.otf) format('opentype');
+}
+
+:root {
+    --cor1: #750075;
+    --cor2: #F74AF7;
+    --cor3: #F401F5;
+    --cor4: #752375;
+    --cor5: #C200C2;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-image: linear-gradient(to right, var(--cor1), var(--cor3));
+    padding: 50px;
+}
+
+header > h1 {
+    font-family: 'Carerra Jones';
+    font-weight: normal;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+}
+
+header > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+    padding-top: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+}
+
+main {
+    max-width: 1300px;
+    margin: auto;
+    padding: 10px;
+}
+
+main a:hover {
+    background-color: var(--cor4);
+    transition-duration: 0.5s;
+}
+
+footer {
+    background-image: linear-gradient(to left, var(--cor1), var(--cor3));
+    padding: 10px;
+}
+
+footer > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+}
+
+.imagem {
+    margin: auto;
+    display: block;
+}
