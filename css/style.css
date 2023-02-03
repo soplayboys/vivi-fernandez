@@ -48,14 +48,19 @@ header > p {
 }
 
 main {
-    max-width: 1300px;
+    max-width: 1270px;
     margin: auto;
     padding: 10px;
 }
 
 main a:hover {
-    background-color: var(--cor4);
+    background-color: var(--cor2);
     transition-duration: 0.5s;
+}
+
+div.separacao {
+    max-width: 505px;
+    margin: auto;
 }
 
 footer {
